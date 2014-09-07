@@ -1,0 +1,23 @@
+{
+  "name": "jenkins-clean-theme",
+  "version": "1.0.0",
+  "description": "Clean theme for Jenkins-CI",
+  "main": "master.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AvonGenesis/jenkins-clean-theme.git"
+  },
+  "author": "AvonGenesis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AvonGenesis/jenkins-clean-theme/issues"
+  },
+  "homepage": "https://github.com/AvonGenesis/jenkins-clean-theme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-stylus": "^0.19.0"
+  }
+}
