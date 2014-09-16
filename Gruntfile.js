@@ -16,4 +16,5 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-stylus');
   grunt.registerTask('default', ['stylus']);
+  grunt.registerTask('test', ['stylus']);
 };
