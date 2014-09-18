@@ -1,0 +1,28 @@
+// Sun health status
+a.build-health-link
+  padding-left: 24px; // Equal to width of new image
+  margin-left: 12px;
+  vertical-align: middle !important;
+
+a.build-health-link img
+  display: none !important;
+
+td img[src*="health"]
+  display: none !important;
+
+td.healthReport a.build-health-link
+  background: url(img/cloud.png) no-repeat !important;
+  background-size: contain !important;
+
+td.healthReport[data="100"] a.build-health-link
+  background: url(img/sun.png) no-repeat !important;
+  background-size: contain !important;
+
+#projectstatus td a[href*="build?"]
+  background: url(img/build.png) no-repeat !important;
+  background-size: contain !important;
+  padding-left: 24px; // Equal to width of new image
+  margin-left: 12px;
+
+#projectstatus td a[href*="build?"] img
+  display: none !important;
